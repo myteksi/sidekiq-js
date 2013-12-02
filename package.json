@@ -1,0 +1,21 @@
+{
+  "name": "sidekiq-js",
+  "version": "0.0.1",
+  "description": "To push jobs into Rails Sidekiq's queue",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha specs/* -R nyan -u bdd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/myteksi/sidekiq-js.git"
+  },
+  "author": "Fadrizul Hasani <fadrizul@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/myteksi/sidekiq-js/issues"
+  },
+  "dependencies": {
+    "redis-client-manager": "git://github.com/myteksi/redis-client-manager.git"
+  }
+}
