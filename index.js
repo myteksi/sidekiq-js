@@ -17,7 +17,7 @@ Author: Fadrizul Hasani <fadrizul@gmail.com>
       'args': workerArguments,
       'retry': retry
     };
-
+    callback = callback || function() { };
     redisManager.getClient(connectionOptions).lpush('frontend:queue:default', JSON.stringify(message), callback);
   };
 }).call(this)
